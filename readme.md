@@ -1,0 +1,1 @@
+A strongly opinionated ESLint configuration for a seriously taken cartoonish development.

@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-aargh",
+  "version": "0.1.0",
+  "description": "A strongly opinionated ESLint configuration for a seriously taken cartoonish development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "javascript"
+  ],
+  "author": "Iakovos Papadopoulos <iakopap@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.23.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.23.0"
+  }
+}
