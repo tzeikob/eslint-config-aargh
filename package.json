@@ -1,23 +1,43 @@
 {
   "name": "eslint-config-aargh",
   "version": "0.1.1",
-  "description": "A strongly opinionated ESLint configuration for a seriously taken cartoonish development.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Iakovos Papadopoulos <iakopap@gmail.com>",
+  "description": "A strongly opinionated ESLint configuration for seriously taken cartoonish development.",
   "keywords": [
     "lint",
     "eslint",
     "eslintconfig",
+    "config",
+    "styleguide",
     "javascript"
   ],
-  "author": "Iakovos Papadopoulos <iakopap@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/tzeikob/eslint-config-aargh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tzeikob/eslint-config-aargh"
+  },
+  "bugs": {
+    "url": "https://github.com/tzeikob/eslint-config-aargh/issues",
+    "email": "iakopap@gmail.com"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "files": [
+    "license",
+    "readme.md",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache --format stylish --color .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
-    "eslint": "^7.23.0"
+    "eslint": "^6.8.0"
   },
   "peerDependencies": {
-    "eslint": "^7.23.0"
+    "eslint": "^6.8.0"
   }
 }
