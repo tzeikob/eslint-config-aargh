@@ -1,11 +1,23 @@
 module.exports = {
-  parserOptions: {
-    ecmaVersion: 2017
-  },
+  root: true,
+  noInlineConfig: true,
+  reportUnusedDisableDirectives: true,
   env: {
-    es6: true
+    es6: true,
+    node: true,
+    commonjs: true,
+    mongo: true,
+    mocha: true
   },
-  rules: {
-    semi: [2, "always"]
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly"
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: "module",
+    ecmaFeatures: {
+      impliedStrict: true
+    }
   }
 }
