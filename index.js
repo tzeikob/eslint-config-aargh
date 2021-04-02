@@ -1,4 +1,7 @@
 module.exports = {
+  extends: [
+    "eslint:recommended"
+  ],
   root: true,
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
