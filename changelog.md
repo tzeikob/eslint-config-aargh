@@ -1,3 +1,7 @@
+0.1.3 / 2021-04-09
+==================
+  * Organize rules in separate files per ESLint scopes
+
 0.1.2 / 2021-04-02
 ==================
   * Initialize environmental and parsing properties
