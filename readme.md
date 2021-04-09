@@ -1,1 +1,1 @@
-A strongly opinionated ESLint configuration for a seriously taken cartoonish development.
+A strongly opinionated lint configuration for seriously taken cartoonish development.
