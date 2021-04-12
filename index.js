@@ -6,15 +6,19 @@ module.exports = {
     './rules/practices',
     './rules/strict',
     './rules/style',
-    './rules/variables'
+    './rules/variables',
+    './rules/promise'
   ].map(require.resolve),
+
   root: true,
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
+
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
   },
+
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -22,5 +26,6 @@ module.exports = {
       impliedStrict: true
     }
   },
+
   rules: {}
 };
