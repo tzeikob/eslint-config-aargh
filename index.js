@@ -7,7 +7,7 @@ module.exports = {
     './rules/strict',
     './rules/style',
     './rules/variables',
-    './rules/promise'
+    './plugins/promise'
   ].map(require.resolve),
 
   root: true,
