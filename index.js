@@ -8,7 +8,8 @@ module.exports = {
     './rules/style',
     './rules/variables',
     './plugins/promise',
-    './plugins/node'
+    './plugins/node',
+    './plugins/import'
   ].map(require.resolve),
 
   root: true,
