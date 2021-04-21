@@ -6,11 +6,11 @@ This package provides an extensible ESLint base configuration for general purpos
 
 ## How to install ##
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` along with the following eslint plugins,
+Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires the eslint package along with the following eslint plugins,
 
- * `eslint-plugin-import`,
- * `eslint-plugin-node`,
- * `eslint-plugin-promise`
+ * eslint-plugin-import,
+ * eslint-plugin-node,
+ * eslint-plugin-promise
 
 Install the correct versions of each package, which are listed by the following command.
 
@@ -33,7 +33,7 @@ In case you are using **npm < 5** you can run the following command.
 )
 ```
 
-Which produces and runs a command like so.
+Which produces and runs a command as the following.
 
 ```sh
   npm install --save-dev eslint-config-aargh eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-node@^#.#.# eslint-plugin-promise@^#.#.#
