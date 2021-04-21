@@ -3,7 +3,6 @@ module.exports = {
     node: true,
     commonjs: true
   },
-
   rules: {
     'callback-return': ['off'],
     'global-require': ['error'],

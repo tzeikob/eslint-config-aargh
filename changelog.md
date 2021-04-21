@@ -1,3 +1,9 @@
+1.0.0 / 2021-04-21
+==================
+  * Add rules for node from the eslint-plugin-node
+  * Add rules for imports from eslint-plugin-import
+
+
 0.2.0 / 2021-04-12
 ==================
   * Add rules to lint for promises usage via the 'promise' eslint-plugin.
