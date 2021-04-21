@@ -2,9 +2,7 @@ module.exports = {
   env: {
     es6: true
   },
-
   plugins: ['promise'],
-
   rules: {
     'promise/catch-or-return': ['error'],
     'promise/no-return-wrap': ['error'],

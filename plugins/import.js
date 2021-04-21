@@ -2,9 +2,7 @@ module.exports = {
   env: {
     es6: true
   },
-
   plugins: ['import'],
-
   rules: {
     'import/no-unresolved': ['error', {
       'commonjs': false,

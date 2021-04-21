@@ -11,16 +11,13 @@ module.exports = {
     './plugins/node',
     './plugins/import'
   ].map(require.resolve),
-
   root: true,
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
-
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
   },
-
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -28,6 +25,5 @@ module.exports = {
       impliedStrict: true
     }
   },
-
   rules: {}
 };

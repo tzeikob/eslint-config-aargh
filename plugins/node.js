@@ -3,9 +3,7 @@ module.exports = {
     es6: true,
     node: true
   },
-
   plugins: ['node'],
-
   rules: {
     'node/no-callback-literal': ['error'],
     'node/no-exports-assign': ['error'],
