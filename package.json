@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aargh",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": "Iakovos Papadopoulos <iakopap@gmail.com>",
   "description": "A strongly opinionated lint configuration for seriously taken cartoonish development.",
   "keywords": [
