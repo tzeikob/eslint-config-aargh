@@ -36,18 +36,18 @@ In case you are using **npm < 5** you can run the following command.
 Which produces and runs a command like so.
 
 ```sh
-  npm install --save-dev eslint-config-aargh eslint@^#.#.# eslint-plugin-import@^#.#.#
+  npm install --save-dev eslint-config-aargh eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-node@^#.#.# eslint-plugin-promise@^#.#.#
 ```
 
-### How to use ###
+## How to use ##
 
-Create an `.eslintrc` file under the root folder of your project and add the following into it.
+Create an `.eslintrc` file under the root folder of your project and add the following lines.
 
-```javascript
+```
 {
   "extends": "aargh",
   "rules": {}
 }
 ```
 
-Use the `rules` property to override the default rules set by this configuration.
+Add rules into the `rules` property to override any default rules set by this configuration.
