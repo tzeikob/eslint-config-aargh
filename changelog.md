@@ -1,3 +1,7 @@
+1.2.0 / 2021-05-05
+==================
+  * Add entry point `style` for styling only rules
+
 1.1.0 / 2021-05-05
 ==================
   * Add entry point `base` for ESLint only rules
