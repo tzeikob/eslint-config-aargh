@@ -1,3 +1,7 @@
+1.1.0 / 2021-05-05
+==================
+  * Add entry point `base` for ESLint only rules
+
 1.0.0 / 2021-04-21
 ==================
   * Add rules for node from the eslint-plugin-node
