@@ -13,10 +13,6 @@ module.exports = {
   ].map(require.resolve),
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
-  },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
