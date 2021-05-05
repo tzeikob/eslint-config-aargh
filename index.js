@@ -13,12 +13,12 @@ module.exports = {
   ].map(require.resolve),
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
+  env: {
+    es2021: true
+  },
   parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: 'module',
-    ecmaFeatures: {
-      impliedStrict: true
-    }
+    ecmaVersion: 2021,
+    sourceType: 'module'
   },
   rules: {}
 };
