@@ -11,6 +11,7 @@ module.exports = {
     './plugins/node',
     './plugins/import'
   ].map(require.resolve),
+  root: true,
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
   env: {
