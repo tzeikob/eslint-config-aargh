@@ -1,3 +1,7 @@
+1.2.2 / 2021-05-11
+==================
+  * Fix broken style configuration entry
+
 1.2.1 / 2021-05-11
 ==================
   * Fix broken files for entry points and rules
