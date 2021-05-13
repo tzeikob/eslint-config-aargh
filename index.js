@@ -15,6 +15,10 @@ module.exports = {
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
   env: {
+    browser: true,
+    node: true,
+    amd: true,
+    worker: true,
     es2021: true
   },
   parserOptions: {
