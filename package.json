@@ -35,7 +35,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --cache --format stylish --color .",
+    "lint": "eslint --cache --color .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
