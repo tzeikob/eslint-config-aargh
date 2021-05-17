@@ -1,14 +1,41 @@
 module.exports = {
   rules: {
-    'for-direction': ['error'],
-    'getter-return': ['error'],
-    'no-async-promise-executor': ['error'],
-    'no-await-in-loop': ['error'],
-    'no-compare-neg-zero': ['error'],
-    'no-cond-assign': ['error', 'always'],
-    'no-console': ['error'],
-    'no-constant-condition': ['error'],
-    'no-control-regex': ['error'],
+    // Enforce "for" loop update clause moving the counter in the right direction
+    // https://eslint.org/docs/rules/for-direction
+    "for-direction": ["error"],
+
+    // Enforces that a return statement is present in property getters
+    // https://eslint.org/docs/rules/getter-return
+    "getter-return": ["error"],
+
+    // Disallow using an async function as a Promise executor
+    // https://eslint.org/docs/rules/no-async-promise-executor
+    "no-async-promise-executor": ["error"],
+
+    // Disallow await inside of loops
+    // https://eslint.org/docs/rules/no-await-in-loop
+    "no-await-in-loop": ["error"],
+
+    // Disallow comparing against -0
+    // https://eslint.org/docs/rules/no-compare-neg-zero
+    "no-compare-neg-zero": ["error"],
+
+    // Disallow assignment operators in conditional statements
+    // https://eslint.org/docs/rules/no-cond-assign
+    "no-cond-assign": ["error", "always"],
+
+    // Disallow the use of console
+    // https://eslint.org/docs/rules/no-console
+    "no-console": ["error"],
+
+    // Disallow constant expressions in conditions
+    // https://eslint.org/docs/rules/no-constant-condition
+    "no-constant-condition": ["error"],
+
+    // Disallow control characters in regular expressions
+    // https://eslint.org/docs/rules/no-control-regex
+    "no-control-regex": ["error"],
+
     'no-debugger': ['error'],
     'no-dupe-args': ['error'],
     'no-dupe-else-if': ['error'],
