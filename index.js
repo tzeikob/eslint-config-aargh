@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
     './rules/errors',
+    './rules/practices',
     './rules/es6',
     './rules/node',
-    './rules/practices',
     './rules/strict',
     './rules/style',
     './rules/variables',

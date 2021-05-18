@@ -1,27 +1,101 @@
 module.exports = {
   rules: {
+    // Enforces getter/setter pairs in objects and classes
+    // https://eslint.org/docs/rules/accessor-pairs
     'accessor-pairs': ['error'],
-    'array-callback-return': ['error'],
-    'block-scoped-var': ['off'],
-    'class-methods-use-this': ['off'],
-    'complexity': ['off'],
+
+    // Enforces return statements in callbacks of array's methods
+    // https://eslint.org/docs/rules/array-callback-return
+    'array-callback-return': ['error', {
+      checkForEach: true
+    }],
+
+    // Treat var as block scoped
+    // https://eslint.org/docs/rules/block-scoped-var
+    'block-scoped-var': ['error'],
+
+    // Enforce that class methods utilize this
+    // https://eslint.org/docs/rules/class-methods-use-this
+    'class-methods-use-this': ['error'],
+
+    // Limit cyclomatic complexity
+    // https://eslint.org/docs/rules/complexity
+    'complexity': ['error', {
+      max: 10
+    }],
+
+    // Require return statements to either always or never specify values
+    // https://eslint.org/docs/rules/consistent-return
     'consistent-return': ['error'],
+
+    // Require Following Curly Brace Conventions
+    // https://eslint.org/docs/rules/curly
     'curly': ['error', 'all'],
+
+    // Require default case in switch statements
+    // https://eslint.org/docs/rules/default-case
     'default-case': ['error'],
+
+    // Enforce default clauses in switch statements to be last
+    // https://eslint.org/docs/rules/default-case-last
+    "default-case-last": ["error"],
+
+    // Enforce default parameters to be last
+    // https://eslint.org/docs/rules/default-param-last
     'default-param-last': ['error'],
+
+    // Enforce newline before and after dot
+    // https://eslint.org/docs/rules/dot-location
     'dot-location': ['error', 'property'],
-    'dot-notation': ['error', { 'allowKeywords': true }],
-    'eqeqeq': ['error'],
+
+    // Require dot notation
+    // https://eslint.org/docs/rules/dot-notation
+    'dot-notation': ['error'],
+
+    // Require === and !==
+    // https://eslint.org/docs/rules/eqeqeq
+    'eqeqeq': ['error', "always"],
+
+    // Require grouped accessor pairs in object literals and classes
+    // https://eslint.org/docs/rules/grouped-accessor-pairs
     'grouped-accessor-pairs': ['error', 'setBeforeGet'],
+
+    // Require guarding for-in
+    // https://eslint.org/docs/rules/guard-for-in
     'guard-for-in': ['error'],
+
+    // Enforce a maximum number of classes per file
+    // https://eslint.org/docs/rules/max-classes-per-file
     'max-classes-per-file': ['error', 1],
+
+    // Disallow use of alert
+    // https://eslint.org/docs/rules/no-alert
     'no-alert': ['error'],
+
+    // Disallow use of caller/callee
+    // https://eslint.org/docs/rules/no-caller
     'no-caller': ['error'],
+
+    // Disallow lexical declarations in case/default clauses
+    // https://eslint.org/docs/rules/no-case-declarations
     'no-case-declarations': ['error'],
+
+    // Disallow returning value in constructor
+    // https://eslint.org/docs/rules/no-constructor-return
     'no-constructor-return': ['error'],
+
+    // Disallow regular expressions that look like division
+    // https://eslint.org/docs/rules/no-div-regex
     'no-div-regex': ['error'],
-    'no-else-return': ['off'],
+
+    // Disallow return before else
+    // https://eslint.org/docs/rules/no-else-return
+    'no-else-return': ['error'],
+
+    // Disallow empty functions
+    // https://eslint.org/docs/rules/no-empty-function
     'no-empty-function': ['error'],
+
     'no-empty-pattern': ['error'],
     'no-eq-null': ['error'],
     'no-eval': ['error'],
