@@ -36,35 +36,158 @@ module.exports = {
     // https://eslint.org/docs/rules/no-control-regex
     "no-control-regex": ["error"],
 
-    'no-debugger': ['error'],
-    'no-dupe-args': ['error'],
-    'no-dupe-else-if': ['error'],
-    'no-dupe-keys': ['error'],
-    'no-duplicate-case': ['error'],
-    'no-empty': ['error'],
-    'no-empty-character-class': ['error'],
-    'no-ex-assign': ['error'],
-    'no-extra-boolean-cast': ['error'],
-    'no-extra-parens': ['error', 'all', { 'nestedBinaryExpressions': false }],
-    'no-extra-semi': ['error'],
-    'no-func-assign': ['error'],
-    'no-import-assign': ['error'],
-    'no-inner-declarations': ['error', 'both'],
-    'no-invalid-regexp': ['error'],
-    'no-irregular-whitespace': ['error'],
-    'no-misleading-character-class': ['error'],
-    'no-obj-calls': ['error'],
-    'no-prototype-builtins': ['error'],
-    'no-regex-spaces': ['error'],
-    'no-setter-return': ['error'],
-    'no-sparse-arrays': ['error'],
-    'no-template-curly-in-string': ['error'],
-    'no-unexpected-multiline': ['error'],
-    'no-unreachable': ['error'],
-    'no-unsafe-finally': ['error'],
-    'no-unsafe-negation': ['error', { 'enforceForOrderingRelations': true }],
-    'require-atomic-updates': ['off'],
-    'use-isnan': ['error'],
-    'valid-typeof': ['error', { 'requireStringLiterals': true }]
+    // Disallow the use of debugger
+    // https://eslint.org/docs/rules/no-debugger
+    "no-debugger": ["error"],
+
+    // Disallow duplicate arguments in function definitions
+    // https://eslint.org/docs/rules/no-dupe-args
+    "no-dupe-args": ["error"],
+
+    // Disallow duplicate conditions in if-else-if chains
+    // https://eslint.org/docs/rules/no-dupe-else-if
+    "no-dupe-else-if": ["error"],
+
+    // Disallow duplicate keys in object literals
+    // https://eslint.org/docs/rules/no-dupe-keys
+    "no-dupe-keys": ["error"],
+
+    // Rule to disallow a duplicate case label
+    // https://eslint.org/docs/rules/no-duplicate-case
+    "no-duplicate-case": ["error"],
+
+    // Disallow empty block statements
+    // https://eslint.org/docs/rules/no-empty
+    "no-empty": ["error"],
+
+    // Disallow empty character classes in regular expressions
+    // https://eslint.org/docs/rules/no-empty-character-class
+    "no-empty-character-class": ["error"],
+
+    // Disallow reassigning exceptions in catch clauses
+    // https://eslint.org/docs/rules/no-ex-assign
+    "no-ex-assign": ["error"],
+
+    // Disallow unnecessary boolean casts
+    // https://eslint.org/docs/rules/no-extra-boolean-cast
+    "no-extra-boolean-cast": ["error", {
+      enforceForLogicalOperands: true
+    }],
+
+    // Disallow unnecessary parentheses
+    // https://eslint.org/docs/rules/no-extra-parens
+    "no-extra-parens": ["error", "all", {
+      nestedBinaryExpressions: false,
+      ignoreJSX: "all",
+      enforceForArrowConditionals: false
+    }],
+
+    // Disallow unnecessary semicolons
+    // https://eslint.org/docs/rules/no-extra-semi
+    "no-extra-semi": ["error"],
+
+    // Disallow reassigning function declarations
+    // https://eslint.org/docs/rules/no-func-assign
+    "no-func-assign": ["error"],
+
+    // Disallow assigning to imported bindings
+    // https://eslint.org/docs/rules/no-import-assign
+    "no-import-assign": ["error"],
+
+    // Disallow variable or function declarations in nested blocks
+    // https://eslint.org/docs/rules/no-inner-declarations
+    "no-inner-declarations": ["error", "both"],
+
+    // Disallow invalid regular expression strings in RegExp constructors
+    // https://eslint.org/docs/rules/no-invalid-regexp
+    "no-invalid-regexp": ["error"],
+
+    // Disallow irregular whitespace
+    // https://eslint.org/docs/rules/no-irregular-whitespace
+    "no-irregular-whitespace": ["error"],
+
+    // Disallow number literals that lose precision
+    // https://eslint.org/docs/rules/no-loss-of-precision
+    "no-loss-of-precision": ["error"],
+
+    // Disallow characters which are made with multiple code points in character class syntax
+    // https://eslint.org/docs/rules/no-misleading-character-class
+    "no-misleading-character-class": ["error"],
+
+    // Disallow calling global object properties as functions
+    // https://eslint.org/docs/rules/no-obj-calls
+    "no-obj-calls": ["error"],
+
+    // Disallow returning values from Promise executor functions
+    // https://eslint.org/docs/rules/no-promise-executor-return
+    "no-promise-executor-return": ["error"],
+
+    // Disallow use of Object.prototypes builtins directly
+    // https://eslint.org/docs/rules/no-prototype-builtins
+    "no-prototype-builtins": ["error"],
+
+    // Disallow multiple spaces in regular expression literals
+    // https://eslint.org/docs/rules/no-regex-spaces
+    "no-regex-spaces": ["error"],
+
+    // Disallow returning values from setters
+    // https://eslint.org/docs/rules/no-setter-return
+    "no-setter-return": ["error"],
+
+    // Disallow sparse arrays
+    // https://eslint.org/docs/rules/no-sparse-arrays
+    "no-sparse-arrays": ["error"],
+
+    // Disallow template literal placeholder syntax in regular strings
+    // https://eslint.org/docs/rules/no-template-curly-in-string
+    "no-template-curly-in-string": ["error"],
+
+    // Disallow confusing multiline expressions
+    // https://eslint.org/docs/rules/no-unexpected-multiline
+    "no-unexpected-multiline": ["error"],
+
+    // Disallow unreachable code after return, throw, continue, and break statements
+    // https://eslint.org/docs/rules/no-unreachable
+    "no-unreachable": ["error"],
+
+    // Disallow loops with a body that allows only one iteration
+    // https://eslint.org/docs/rules/no-unreachable-loop
+    "no-unreachable-loop": ["error"],
+
+    // Disallow control flow statements in finally blocks
+    // https://eslint.org/docs/rules/no-unsafe-finally
+    "no-unsafe-finally": ["error"],
+
+    // Disallow negating the left operand of relational operators
+    // https://eslint.org/docs/rules/no-unsafe-negation
+    "no-unsafe-negation": ["error", {
+      enforceForOrderingRelations: true
+    }],
+
+    // Disallow use of optional chaining in contexts where the undefined value is not allowed
+    // https://eslint.org/docs/rules/no-unsafe-optional-chaining
+    "no-unsafe-optional-chaining": ["error", {
+      disallowArithmeticOperators: true
+    }],
+
+    // Disallow useless backreferences in regular expressions
+    // https://eslint.org/docs/rules/no-useless-backreference
+    "no-useless-backreference": ["error"],
+
+    // Disallow assignments that can lead to race conditions due to usage of await or yield
+    // https://eslint.org/docs/rules/require-atomic-updates
+    "require-atomic-updates": ["error"],
+
+    // Require calls to isNaN() when checking for NaN
+    // https://eslint.org/docs/rules/use-isnan
+    "use-isnan": ["error", {
+      enforceForIndexOf: true
+    }],
+
+    // Enforce comparing typeof expressions against valid strings
+    // https://eslint.org/docs/rules/valid-typeof
+    "valid-typeof": ["error", {
+      requireStringLiterals: true
+    }]
   }
 };

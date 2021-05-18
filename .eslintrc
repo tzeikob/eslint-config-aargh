@@ -1,4 +1,6 @@
 {
   "extends": "./index.js",
-  "rules": {}
+  "rules": {
+    "multiline-comment-style": ["off"]
+  }
 }
