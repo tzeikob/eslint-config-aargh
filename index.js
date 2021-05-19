@@ -2,9 +2,9 @@ module.exports = {
   extends: [
     './rules/errors',
     './rules/practices',
+    './rules/strict',
     './rules/es6',
     './rules/node',
-    './rules/strict',
     './rules/style',
     './rules/variables',
     './plugins/promise',
