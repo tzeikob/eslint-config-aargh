@@ -3,10 +3,10 @@ module.exports = {
     './rules/errors',
     './rules/practices',
     './rules/strict',
+    './rules/variables',
     './rules/es6',
     './rules/node',
     './rules/style',
-    './rules/variables',
     './plugins/promise',
     './plugins/node',
     './plugins/import'
