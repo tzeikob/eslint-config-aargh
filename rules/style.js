@@ -1,47 +1,132 @@
 module.exports = {
   rules: {
+    // Enforce line breaks after opening and before closing array brackets
+    // https://eslint.org/docs/rules/array-bracket-newline
     'array-bracket-newline': ['error', 'consistent'],
+
+    // Disallow or enforce spaces inside of brackets
+    // https://eslint.org/docs/rules/array-bracket-spacing
     'array-bracket-spacing': ['error', 'never'],
+
+    // Enforce line breaks between array elements
+    // https://eslint.org/docs/rules/array-element-newline
     'array-element-newline': ['error', 'consistent'],
+
+    // Disallow or enforce spaces inside of blocks after opening block and before closing block
+    // https://eslint.org/docs/rules/block-spacing
     'block-spacing': ['error', 'always'],
+
+    // Require brace style
+    // https://eslint.org/docs/rules/brace-style
     'brace-style': ['error', '1tbs'],
+
+    // Require CamelCase
+    // https://eslint.org/docs/rules/camelcase
     'camelcase': ['error'],
-    'capitalized-comments': ['error'],
+
+    // Enforce or disallow capitalization of the first letter of a comment
+    // https://eslint.org/docs/rules/capitalized-comments
+    'capitalized-comments': ['error', 'always'],
+
+    // Require or disallow trailing commas
+    // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': ['error', 'never'],
-    'comma-spacing': ['error', { 'before': false, 'after': true }],
+
+    // Enforces spacing around commas
+    // https://eslint.org/docs/rules/comma-spacing
+    'comma-spacing': ['error', { before: false, after: true }],
+
+    // Comma style
+    // https://eslint.org/docs/rules/comma-style
     'comma-style': ['error', 'last'],
-    'computed-property-spacing': ['error', 'never', { 'enforceForClassMembers': true }],
-    'consistent-this': ['error', 'that'],
-    'eol-last': ['error'],
+
+    // Disallow or enforce spaces inside of computed properties
+    // https://eslint.org/docs/rules/computed-property-spacing
+    'computed-property-spacing': ['error', 'never'],
+
+    // Require consistent this
+    // https://eslint.org/docs/rules/consistent-this
+    'consistent-this': ['off'],
+
+    // Require or disallow newline at the end of files
+    // https://eslint.org/docs/rules/eol-last
+    'eol-last': ['error', 'never'],
+
+    // Require or disallow spacing between function identifiers and their invocations
+    // https://eslint.org/docs/rules/func-call-spacing
     'func-call-spacing': ['error', 'never'],
+
+    // Require function names to match the name of the variable or property to which they are assigned
+    // https://eslint.org/docs/rules/func-name-matching
     'func-name-matching': ['off'],
-    'func-names': ['error', 'never'],
-    'func-style': ['error', 'expression'],
+
+    // Require or disallow named function expressions
+    // https://eslint.org/docs/rules/func-names
+    'func-names': ['off'],
+
+    // Enforce the consistent use of either function declarations or expressions
+    // https://eslint.org/docs/rules/func-style
+    'func-style': ['off'],
+
+    // Enforce line breaks between arguments of a function call
+    // https://eslint.org/docs/rules/function-call-argument-newline
     'function-call-argument-newline': ['off'],
+
+    // Enforce consistent line breaks inside function parentheses
+    // https://eslint.org/docs/rules/function-paren-newline
     'function-paren-newline': ['off'],
-    'id-blacklist': ['off'],
+
+    // Disallow specified identifiers
+    // https://eslint.org/docs/rules/id-denylist
+    'id-denylist': ['off'],
+
+    // Enforce minimum and maximum identifier lengths
+    // https://eslint.org/docs/rules/id-length
     'id-length': ['off'],
+
+    // Require identifiers to match a specified regular expression
+    // https://eslint.org/docs/rules/id-match
     'id-match': ['off'],
+
+    // Enforce the location of arrow function bodies with implicit returns
+    // https://eslint.org/docs/rules/implicit-arrow-linebreak
     'implicit-arrow-linebreak': ['error', 'beside'],
+
+    // Enforce consistent indentation
+    // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {
-      'SwitchCase': 1,
-      'VariableDeclarator': 1,
-      'outerIIFEBody': 1,
-      'MemberExpression': 1,
-      'FunctionDeclaration': { 'parameters': 1, 'body': 1 },
-      'FunctionExpression': { 'parameters': 1, 'body': 1 },
-      'CallExpression': { 'arguments': 1 },
-      'ArrayExpression': 1,
-      'ObjectExpression': 1,
-      'ImportDeclaration': 1,
-      'flatTernaryExpressions': false,
-      'ignoredNodes': ['TemplateLiteral *'],
-      'ignoreComments': false
+      SwitchCase: 1,
+      VariableDeclarator: 1,
+      outerIIFEBody: 1,
+      MemberExpression: 1,
+      FunctionDeclaration: { parameters: 1, body: 1 },
+      FunctionExpression: { parameters: 1, body: 1 },
+      CallExpression: { arguments: 1 },
+      ArrayExpression: 1,
+      ObjectExpression: 1,
+      ImportDeclaration: 1,
+      flatTernaryExpressions: false,
+      offsetTernaryExpressions: true,
+      ignoredNodes: ['TemplateLiteral *'],
+      ignoreComments: false
     }],
+
+    // Enforce the consistent use of either double or single quotes in JSX attributes
+    // https://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': ['off'],
-    'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
-    'keyword-spacing': ['error', { 'before': true, 'after': true }],
+
+    // Enforce consistent spacing between keys and values in object literal properties
+    // https://eslint.org/docs/rules/key-spacing
+    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+
+    // Enforce consistent spacing before and after keywords
+    // https://eslint.org/docs/rules/keyword-spacing
+    'keyword-spacing': ['error', { before: true, after: true }],
+
+    // Enforce position of line comments
+    // https://eslint.org/docs/rules/line-comment-position
     'line-comment-position': ['error', 'above'],
+
     'linebreak-style': ['error', 'unix'],
     'lines-around-comment': ['off'],
     'lines-between-class-members': ['error', 'always'],

@@ -4,9 +4,9 @@ module.exports = {
     './rules/practices',
     './rules/strict',
     './rules/variables',
+    './rules/style',
     './rules/es6',
     './rules/node',
-    './rules/style',
     './plugins/promise',
     './plugins/node',
     './plugins/import'
