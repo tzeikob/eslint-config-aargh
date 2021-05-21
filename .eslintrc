@@ -1,6 +1,8 @@
 {
   "extends": "./index.js",
   "rules": {
-    "multiline-comment-style": ["off"]
+    "lines-around-comment": ["off"],
+    "max-len": ["off"],
+    "quote-props": ["error", "consistent"]
   }
 }
