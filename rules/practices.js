@@ -6,9 +6,7 @@ module.exports = {
 
     // Enforces return statements in callbacks of array's methods
     // https://eslint.org/docs/rules/array-callback-return
-    'array-callback-return': ['error', {
-      checkForEach: true
-    }],
+    'array-callback-return': ['error', { checkForEach: true }],
 
     // Treat var as block scoped
     // https://eslint.org/docs/rules/block-scoped-var
@@ -20,9 +18,7 @@ module.exports = {
 
     // Limit cyclomatic complexity
     // https://eslint.org/docs/rules/complexity
-    'complexity': ['error', {
-      max: 10
-    }],
+    'complexity': ['error', { max: 10 }],
 
     // Require return statements to either always or never specify values
     // https://eslint.org/docs/rules/consistent-return
@@ -138,9 +134,7 @@ module.exports = {
 
     // Disallow declarations in the global scope
     // https://eslint.org/docs/rules/no-implicit-globals
-    'no-implicit-globals': ['error', {
-      lexicalBindings: true
-    }],
+    'no-implicit-globals': ['error', { lexicalBindings: true }],
 
     // Disallow implied eval()
     // https://eslint.org/docs/rules/no-implied-eval
@@ -207,10 +201,10 @@ module.exports = {
     'no-param-reassign': ['error', {
       props: true,
       ignorePropertyModificationsFor: [
-        "req", // Express request
-        "request", // Express request
-        "res", // Express response
-        "response" // Express response
+        "req",
+        "request",
+        "res",
+        "response"
       ]
     }],
 
@@ -294,9 +288,7 @@ module.exports = {
 
     // Disallow unused expressions
     // https://eslint.org/docs/rules/no-unused-expressions
-    'no-unused-expressions': ['error', {
-      enforceForJSX: true
-    }],
+    'no-unused-expressions': ['error', { enforceForJSX: true }],
 
     // Disallow unused labels
     // https://eslint.org/docs/rules/no-unused-labels
@@ -344,11 +336,9 @@ module.exports = {
 
     // Disallow use of the RegExp constructor in favor of regular expression literals
     // https://eslint.org/docs/rules/prefer-regex-literals
-    'prefer-regex-literals': ['error', {
-      disallowRedundantWrapping: true
-    }],
+    'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
 
-    // Require ρadix πarameter
+    // Require radix parameter
     // https://eslint.org/docs/rules/radix
     'radix': ['error'],
 
@@ -366,9 +356,7 @@ module.exports = {
 
     // Require IIFEs to be wrapped
     // https://eslint.org/docs/rules/wrap-iife
-    'wrap-iife': ['error', 'inside', {
-      functionPrototypeMethods: true
-    }],
+    'wrap-iife': ['error', 'inside', { functionPrototypeMethods: true }],
 
     // Require or disallow yoda conditions
     // https://eslint.org/docs/rules/yoda

@@ -293,10 +293,7 @@ module.exports = {
 
     // Disallow trailing whitespace at the end of lines
     // https://eslint.org/docs/rules/no-trailing-spaces
-    'no-trailing-spaces': ['error', {
-      skipBlankLines: false,
-      ignoreComments: false
-    }],
+    'no-trailing-spaces': ['error', { skipBlankLines: false, ignoreComments: false }],
 
     // Disallow dangling underscores in identifiers
     // https://eslint.org/docs/rules/no-underscore-dangle
@@ -374,10 +371,7 @@ module.exports = {
 
     // Enforce the consistent use of either backticks, double, or single quotes
     // https://eslint.org/docs/rules/quotes
-    'quotes': ['error', 'single', {
-      avoidEscape: true,
-      allowTemplateLiterals: false
-    }],
+    'quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
 
     // Require or disallow semicolons instead of ASI
     // https://eslint.org/docs/rules/semi
@@ -421,10 +415,7 @@ module.exports = {
 
     // Require or disallow spaces before/after unary operators
     // https://eslint.org/docs/rules/space-unary-ops
-    'space-unary-ops': ['error', {
-      words: true,
-      nonwords: false
-    }],
+    'space-unary-ops': ['error', { words: true, nonwords: false }],
 
     // Requires or disallows a whitespace (space or tab) beginning a comment
     // https://eslint.org/docs/rules/spaced-comment

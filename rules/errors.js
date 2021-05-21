@@ -70,9 +70,7 @@ module.exports = {
 
     // Disallow unnecessary boolean casts
     // https://eslint.org/docs/rules/no-extra-boolean-cast
-    "no-extra-boolean-cast": ["error", {
-      enforceForLogicalOperands: true
-    }],
+    "no-extra-boolean-cast": ["error", { enforceForLogicalOperands: true }],
 
     // Disallow unnecessary parentheses
     // https://eslint.org/docs/rules/no-extra-parens
@@ -160,15 +158,11 @@ module.exports = {
 
     // Disallow negating the left operand of relational operators
     // https://eslint.org/docs/rules/no-unsafe-negation
-    "no-unsafe-negation": ["error", {
-      enforceForOrderingRelations: true
-    }],
+    "no-unsafe-negation": ["error", { enforceForOrderingRelations: true }],
 
     // Disallow use of optional chaining in contexts where the undefined value is not allowed
     // https://eslint.org/docs/rules/no-unsafe-optional-chaining
-    "no-unsafe-optional-chaining": ["error", {
-      disallowArithmeticOperators: true
-    }],
+    "no-unsafe-optional-chaining": ["error", { disallowArithmeticOperators: true }],
 
     // Disallow useless backreferences in regular expressions
     // https://eslint.org/docs/rules/no-useless-backreference
@@ -180,14 +174,10 @@ module.exports = {
 
     // Require calls to isNaN() when checking for NaN
     // https://eslint.org/docs/rules/use-isnan
-    "use-isnan": ["error", {
-      enforceForIndexOf: true
-    }],
+    "use-isnan": ["error", { enforceForIndexOf: true }],
 
     // Enforce comparing typeof expressions against valid strings
     // https://eslint.org/docs/rules/valid-typeof
-    "valid-typeof": ["error", {
-      requireStringLiterals: true
-    }]
+    "valid-typeof": ["error", { requireStringLiterals: true }]
   }
 };
