@@ -21,6 +21,11 @@ module.exports = {
     worker: true,
     es2021: true
   },
+  globals: {
+    document: 'readonly',
+    navigator: 'readonly',
+    window: 'readonly'
+  },
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module'
