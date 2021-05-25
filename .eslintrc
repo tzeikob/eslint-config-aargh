@@ -3,6 +3,7 @@
   "rules": {
     "lines-around-comment": ["off"],
     "max-len": ["off"],
-    "quote-props": ["error", "consistent"]
+    "quote-props": ["error", "consistent"],
+    "import/no-commonjs": "off"
   }
 }

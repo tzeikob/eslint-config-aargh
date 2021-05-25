@@ -8,7 +8,7 @@ module.exports = {
     './rules/es6',
     './rules/node',
     './rules/promise',
-    './plugins/import'
+    './rules/import'
   ].map(require.resolve),
   root: true,
   noInlineConfig: true,
@@ -16,7 +16,6 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    amd: true,
     worker: true,
     es2021: true
   },
