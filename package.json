@@ -42,13 +42,13 @@
     "eslint": "7.26.0",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1"
+    "eslint-plugin-promise": "5.1.0"
   },
   "peerDependencies": {
     "eslint": "7.26.0",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1"
+    "eslint-plugin-promise": "5.1.0"
   },
   "dependencies": {
     "confusing-browser-globals": "1.0.10"
