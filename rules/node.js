@@ -59,7 +59,7 @@ module.exports = {
 
     // Disallow unsupported ECMAScript syntax on the specified version
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-syntax.md
-    'node/no-unsupported-features/es-syntax': 'error',
+    'node/no-unsupported-features/es-syntax': 'off',
 
     // Disallow unsupported Node.js built-in APIs on the specified version
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/node-builtins.md
