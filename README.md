@@ -4,7 +4,7 @@
 
 ![AARGH](./banner.png)
 
-This package provides an extensible ESLint base configuration for general purposes.
+This package provides a strongly opinionated lint configuration for seriously taken cartoonish development.
 
 ## How to install ##
 
