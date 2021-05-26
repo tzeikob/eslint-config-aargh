@@ -1,6 +1,7 @@
 # eslint-config-aargh #
 
-[![npm version](https://badge.fury.io/js/eslint-config-aargh.svg)](https://badge.fury.io/js/eslint-config-aargh)
+[![npm version](https://img.shields.io/npm/v/eslint-config-aargh.svg)](https://www.npmjs.com/package/eslint-config-aargh)
+[![Downloads](https://img.shields.io/npm/dm/eslint-config-aargh.svg)](https://www.npmjs.com/package/eslint-config-aargh)
 
 ![AARGH](./banner.png)
 
