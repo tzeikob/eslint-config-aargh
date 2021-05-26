@@ -24,7 +24,7 @@ If you are using **npm 5+**, use can use the following shortcut instead.
 npx install-peerdeps --dev eslint-config-aargh
 ```
 
-In case you are using **npm < 5** you can run the following command.
+In case you are using **npm < 5** you can run the following command,
 
 ```sh
 (
@@ -33,7 +33,7 @@ In case you are using **npm < 5** you can run the following command.
 )
 ```
 
-Which produces and runs a command as the following.
+which produces and runs a command as the following.
 
 ```sh
   npm install --save-dev eslint-config-aargh eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-node@^#.#.# eslint-plugin-promise@^#.#.#
