@@ -45,7 +45,7 @@ Create an `.eslintrc` file under the root folder of your project and add the fol
 
 ```
 {
-  "extends": "aargh",
+  "extends": ["aargh"],
   "rules": {}
 }
 ```
