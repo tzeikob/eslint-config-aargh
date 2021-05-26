@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-aargh.svg)](https://badge.fury.io/js/eslint-config-aargh)
 
+![AARGH](./banner.png)
+
 This package provides an extensible ESLint base configuration for general purposes.
 
 ## How to install ##
