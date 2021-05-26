@@ -4,7 +4,7 @@
 
 ![AARGH](./banner.png)
 
-This package provides a strongly opinionated lint configuration for seriously taken cartoonish development.
+This package provides a strongly opinionated eslint configuration for seriously taken cartoonish javascript development.
 
 ## How to install ##
 
