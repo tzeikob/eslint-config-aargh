@@ -150,9 +150,9 @@ module.exports = {
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/order.md
     'import/order': ['error', {
-      'groups': ['builtin', 'external', 'parent', 'sibling', 'index'],
-      'newlines-between': 'never',
-      'warnOnUnassignedImports': true
+      groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+      warnOnUnassignedImports: true,
+      'newlines-between': 'never'
     }],
 
     // Enforces having one or more empty lines after the last top-level import statement or require call

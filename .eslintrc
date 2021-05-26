@@ -1,9 +1,9 @@
 {
   "extends": "./index.js",
   "rules": {
-    "lines-around-comment": ["off"],
-    "max-len": ["off"],
-    "quote-props": ["error", "consistent"],
+    "lines-around-comment": "off",
+    "max-len": "off",
+    "quote-props": "off",
     "import/no-commonjs": "off"
   }
 }
