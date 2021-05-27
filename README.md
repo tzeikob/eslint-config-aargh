@@ -1,4 +1,4 @@
-# eslint-config-aargh #
+# eslint-config-aargh
 
 [![npm version](https://img.shields.io/npm/v/eslint-config-aargh.svg)](https://www.npmjs.com/package/eslint-config-aargh)
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-aargh.svg)](https://www.npmjs.com/package/eslint-config-aargh)
@@ -7,7 +7,7 @@
 
 This package provides a strongly opinionated eslint configuration for seriously taken cartoonish javascript development.
 
-## How to install ##
+## How to install
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires the eslint package along with the following eslint plugins,
 
@@ -42,11 +42,11 @@ which produces and runs a command as the following.
   npm install --save-dev eslint-config-aargh eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-node@^#.#.# eslint-plugin-promise@^#.#.#
 ```
 
-## How to use ##
+## How to use
 
 Create an `.eslintrc` file under the root folder of your project and add the following lines.
 
-```
+```json
 {
   "extends": ["aargh"],
   "rules": {}
