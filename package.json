@@ -42,14 +42,14 @@
     "confusing-browser-globals": "1.0.10"
   },
   "devDependencies": {
-    "eslint": "7.27.0",
-    "eslint-plugin-import": "2.23.3",
+    "eslint": "7.32.0",
+    "eslint-plugin-import": "2.24.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.1.0"
   },
   "peerDependencies": {
-    "eslint": "7.27.0",
-    "eslint-plugin-import": "2.23.3",
+    "eslint": "7.32.0",
+    "eslint-plugin-import": "2.24.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.1.0"
   }
