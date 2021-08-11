@@ -1,6 +1,6 @@
 v1.2.2 - May 11, 2021
 
-  * [`b7ca4db`](https://github.com/tzeikob/eslint-config-aargh/commit/b7ca4dbad5d0a31865ed7648602a637aaf2189cd) Add parse options (#6)
+  * [`b7ca4db`](https://github.com/tzeikob/eslint-config-aargh/commit/b7ca4dbad5d0a31865ed7648602a637aaf2189cd) Add parse options
 
 v1.2.1 - May 11, 2021
 
