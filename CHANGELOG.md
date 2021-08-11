@@ -4,12 +4,7 @@ v1.2.2 - May 11, 2021
 
 v1.2.1 - May 11, 2021
 
-  * [`8aa27eb`](https://github.com/tzeikob/eslint-config-aargh/commit/8aa27eb1c81f87494f6ca89d6a65dee670fc2a67) Include entry points and rules in the package file (#7)
-  * [`9e5c1e2`](https://github.com/tzeikob/eslint-config-aargh/commit/9e5c1e2cd777b2d65311016ccd0da27e7ad9b7c1) Set environment and syntax to ecmaScript 2021
-  * [`3e1e710`](https://github.com/tzeikob/eslint-config-aargh/commit/3e1e71049ad115248cd9b76727266e82f5e697f4) Remove specific globals
-  * [`e5d413e`](https://github.com/tzeikob/eslint-config-aargh/commit/e5d413e698343f3c1944f272ce5fc8a1cad16a0c) Remove irrelevant environment
-  * [`7522e5d`](https://github.com/tzeikob/eslint-config-aargh/commit/7522e5d4bf0810b561d2c8e6b3a96392d5b7114a) Allow non-root configurations
-  * [`4e19980`](https://github.com/tzeikob/eslint-config-aargh/commit/4e199806e0bb725f86c24d6f4cc029ca66eb27eb) Require node version 12.0.0 and above
+  * [`8aa27eb`](https://github.com/tzeikob/eslint-config-aargh/commit/8aa27eb1c81f87494f6ca89d6a65dee670fc2a67) Include entry points and rules in the package file
 
 v1.2.0 - May 5, 2021
 
