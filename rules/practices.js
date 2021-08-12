@@ -198,15 +198,7 @@ module.exports = {
 
     // Disallow reassignment of function parameters
     // https://eslint.org/docs/rules/no-param-reassign
-    'no-param-reassign': ['error', {
-      props: true,
-      ignorePropertyModificationsFor: [
-        'req',
-        'request',
-        'res',
-        'response'
-      ]
-    }],
+    'no-param-reassign': 'off',
 
     // Disallow use of __proto__
     // https://eslint.org/docs/rules/no-proto
