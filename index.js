@@ -16,6 +16,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    jest: true,
     worker: true,
     es2021: true
   },
