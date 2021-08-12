@@ -113,7 +113,7 @@ module.exports = {
 
     // Reports require([string]) function calls
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-commonjs.md
-    'import/no-commonjs': 'error',
+    'import/no-commonjs': 'off',
 
     // Reports require([array], ...) and define([array], ...) function calls at the module scope
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-amd.md
