@@ -28,10 +28,7 @@
     "license",
     "readme.md",
     "index.js",
-    "base.js",
-    "style.js",
-    "rules",
-    "plugins"
+    "rules"
   ],
   "main": "index.js",
   "scripts": {
