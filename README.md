@@ -53,4 +53,22 @@ Create an `.eslintrc` file under the root folder of your project and add the fol
 }
 ```
 
-Add rules into the `rules` property to override any default rules set by this configuration.
+You can add rules into the `rules` property to override any default rules set by the configuration.
+
+## How to use it for more specific environments
+
+Currently the aargh config is supporting the following entries:
+
+* `aargh/express`: a configuration for express based apps
+* `aargh/browser`: a configuration for browser based apps
+
+All entries are based on the default configuration `aargh` extending and overriding rules and settings with respect to the corresponding environment.
+
+For instance if you want to lint an express based project you can extend in your `.eslintrc` like so:
+
+```json
+{
+  "extends": ["aargh/express"],
+  "rules": {}
+}
+```
