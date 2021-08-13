@@ -14,16 +14,10 @@ module.exports = {
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
   env: {
-    browser: true,
     node: true,
     jest: true,
     worker: true,
     es2021: true
-  },
-  globals: {
-    document: 'readonly',
-    navigator: 'readonly',
-    window: 'readonly'
   },
   parserOptions: {
     ecmaVersion: 2021,

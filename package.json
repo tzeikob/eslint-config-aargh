@@ -28,6 +28,8 @@
     "license",
     "readme.md",
     "index.js",
+    "express.js",
+    "browser.js",
     "rules"
   ],
   "main": "index.js",
