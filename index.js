@@ -9,7 +9,7 @@ module.exports = {
     './rules/node',
     './rules/promise',
     './rules/import'
-  ].map(require.resolve),
+  ],
   root: true,
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
