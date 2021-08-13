@@ -1,3 +1,16 @@
+v2.0.0-beta.1 - August 13, 2021
+
+* [`b624819`](https://github.com/tzeikob/eslint-config-aargh/commit/b624819f941832d793fa50915485241b2e6715d6) Extend base config with entries for express and browser
+* [`fac5867`](https://github.com/tzeikob/eslint-config-aargh/commit/fac58673bd2b8b9ee92b3e8f5f32b1f28cad2c5f) Enforce the no-unused-vars rule for args and errors
+* [`d9fdf2a`](https://github.com/tzeikob/eslint-config-aargh/commit/d9fdf2a6778403d21da60716e851aaba0d7a3cfa) Drop unnecessary resolving in extends
+* [`dcdd9d8`](https://github.com/tzeikob/eslint-config-aargh/commit/dcdd9d8b8120a1289b1d384c8967bfc66f4eaaf9) Remove unnecessary files from the package.json file
+* [`3ef7c76`](https://github.com/tzeikob/eslint-config-aargh/commit/3ef7c76a36d958bfe6415cd7af9516a2c18ed1b9) Relax the import/extensions rule for json files
+* [`0ce9b5f`](https://github.com/tzeikob/eslint-config-aargh/commit/0ce9b5fc60442bfec5cf753e37a026b7fef48fe6) Disable the import/no-commonjs rule
+* [`0041633`](https://github.com/tzeikob/eslint-config-aargh/commit/00416331c1fe79ff0fcc5ae28c33415c9f543fe3) Relax the prefer-destructuring rule
+* [`4dd2a47`](https://github.com/tzeikob/eslint-config-aargh/commit/4dd2a4715fee7960ddcb90491fad1fb99795320d) Disable the no-param-reassign rule
+* [`aabe2d6`](https://github.com/tzeikob/eslint-config-aargh/commit/aabe2d65191e265275abb7fa6a0f5572f5c601aa) Disable the strict rule
+* [`20fdc31`](https://github.com/tzeikob/eslint-config-aargh/commit/20fdc31196d49792f6c7872f7bee541a30a6b8d4) Add jest environment
+
 v2.0.0-beta.0 - August 11, 2021
 
 * [`188be37`](https://github.com/tzeikob/eslint-config-aargh/commit/188be3765b74253868e3a40aa705d42e2f1f59c6) Update CHANGELOG to have the original commit messages

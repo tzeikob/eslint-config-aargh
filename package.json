@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aargh",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.1",
   "author": "Jake Ob <iakopap@gmail.com>",
   "description": "A strongly opinionated lint configuration for seriously taken cartoonish development.",
   "keywords": [
