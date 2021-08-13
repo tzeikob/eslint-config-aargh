@@ -42,9 +42,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unused-vars
     'no-unused-vars': ['error', {
       vars: 'all',
-      args: 'after-used',
-      argsIgnorePattern: 'next',
-      caughtErrors: 'all'
+      args: 'all',
+      caughtErrors: 'all',
+      ignoreRestSiblings: false
     }],
 
     // Disallow early use
