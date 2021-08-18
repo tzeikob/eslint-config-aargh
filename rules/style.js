@@ -172,7 +172,7 @@ module.exports = {
     // Enforce a maximum function length
     // https://eslint.org/docs/rules/max-lines-per-function
     'max-lines-per-function': ['error', {
-      max: 70,
+      max: 50,
       skipBlankLines: true,
       skipComments: true,
       IIFEs: true
